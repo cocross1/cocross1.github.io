@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Website Title -->
-    <title>John Doe - Professional web designer and photographer</title>
+    <title>Connor Cross -- Budding Software Engineer</title>
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font-Awesome -->
@@ -21,7 +21,8 @@
 	<!-- Animations -->
     <link href="css/animate.css" rel="stylesheet">
 	<!-- Custom Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+	<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon" /> 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCvlQRyLGntFDShFD7DMtLi9sWyVIOLE8&callback=initMap" async defer></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -70,11 +71,11 @@
 			  <!-- HEADER HEADLINE -->
               <div class="row">
                 <div class="col-md-8 col-md-offset-1 inner">
-                  <h1 class="animated fadeInDown">
-                    J<span style="color:#E04343;">o</span>hn<br/>
-                    <span>D<span style="color:#FFE800">o</span>e</span>
+                  <h1 class="animated fadeInDown" id="connor-cross">
+                    C<span style="color:#E04343;">o</span>nn<span style="color:#E04343;">o</span>r<br/>
+                    <span>Cr<span style="color:#E04343">o</span>ss</span>
                   </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Designer,Photographer,3d Artist</span></h3><!-- Text Rotator -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Student,Programmer,Leader</span></h3><!-- Text Rotator -->
                 </div>
               </div>
 			  <!-- Learn More Button -->
@@ -107,7 +108,8 @@
               <div class="col-md-8 col-md-offset-2 wp1">
                 <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
 				<!-- about / welcome text -->
-                <p>I am enough of an artist to draw freely upon my imagination. The point is that when I see a sunset or a <a href="#">waterfall</a> or something, for a split second it's so great, because for a little bit I'm out of my brain, and it's got nothing to do with me. I'm not trying to figure it out, you know what I mean? And I wonder if I can somehow find a way to maintain that mind stillness.</p>
+                <p>I'm a junior at <a href="https://www.davidson.edu/" target="_blank">Davidson College</a> pursuing my bachelor's degree in Computer Science
+                while also completing the pre-medicine track.</p>
               </div>
             </div>
           </div>
@@ -168,7 +170,7 @@
 
 
 
-		<div class="container-fluid">
+		<div class="container-fluid" id='skillset'>
 		    <!-- About 1 -->
 			<div class="row color-bg">
 				<div class="col-md-6 nopadding features-intro-img">
@@ -223,7 +225,7 @@
             </div>
           </div>
         </section>
-
+        <section id="portfolioItems">
         <div class="container">
           <div class="row row-offset-0">
   				 
@@ -308,6 +310,7 @@
   	    <!-- PORTFOLIO ITEM END -->
         </div><!--/row-->
       </div><!--/.container-->
+    </section>
 		<!-- ==========================
         PORTFOLIO SECTION END
         =========================== -->
@@ -318,7 +321,7 @@
 		<!-- ==========================
         CUSTOM SPACER
         =========================== -->
-		<div class="spacer-cta text-center">
+		<div class="spacer-cta text-center" id = 'hire'>
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -341,7 +344,7 @@
         <!-- Headline -->
         <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">My <span>little</span> blog</h1>
+                <h1 class="arrow">Some <span>Neat</span> Projects</h1>
               </div>
             </div><br><br>
       
@@ -433,6 +436,7 @@
 		<!-- ==========================
         CLIENT SECTION 
         =========================== -->
+        <section id="client">
 		<div class="container-fluid">
 			<div class="row color-bg">
 				<!-- Left Image -->
@@ -452,6 +456,7 @@
 				</div>
 			</div>
 		</div>
+    </section>
 		<!-- ==========================
         CLIENTS SECTION END
         =========================== -->
@@ -463,7 +468,7 @@
 		<!-- ==========================
         NEWSLETTER SECTION 
         =========================== -->
-        <section>
+        <section id='newsletter'>
 		<div class="container-fluid">
 				<div class="row color-bg">
 				    <div class="col-md-6 nopadding subscribe text-center">
@@ -479,6 +484,7 @@
 				</div>
 			</div>
         </section>
+      </section>
 		<!-- ==========================
         NEWSLETTER SECTION END
         =========================== -->
@@ -503,28 +509,41 @@
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>23 Ipsum street, New York</p>
+                  <p>21 Blue Jay Drive, Concord, MA</p>
                 </div>
               </div>
 			  <!-- Phone Number Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+12 345 6789</p>
+                  <p>+1-434-422-6324</p>
                 </div>
               </div>
 			  <!-- E-Mail Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="index.html#">info@themewagon.com</a></p>
+                  <p><a href="index.html#">cocross@davidson.edu</a></p>
                 </div>
               </div>
             </div>
 			<div class="row">
 			  <!-- Google Maps (Change your Settings below) -->
 			  <div class="col-md-6">
-			    <div id="googlemaps"></div>
+			    <div id="googlemaps">
+            <script>
+              function initMap() {
+        // Specify the initial map properties (center, zoom, etc.)
+        var mapOptions = {
+            center: { lat: 35.5016, lng: -80.8423 },
+            zoom: 11
+        };
+
+        // Create the map
+        var map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
+    }
+            </script>
+          </div>
 			  </div>
 			  <!-- Contact Form -->
 			  <div class="col-md-6 contact">
@@ -612,42 +631,13 @@
 	<!-- Lightbox.js -->
     <script src="assets/lightbox/js/lightbox.min.js"></script>
     <!-- Google Maps --> 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+
 	<!-- Theme JavaScript Core -->
 	<script src="js/main.js"></script>
 	<script src="js/script.js"></script>
 
 	<!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script>
+ 
 	
 	<!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">

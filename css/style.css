@@ -453,12 +453,13 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/IMG_6167.jpg') left bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: white;
 }
+
 .hero h1 {
 	font-size: 120px;
 	letter-spacing: -8px;
@@ -466,9 +467,10 @@ table {
 	font-weight: 600;
 	line-height: 95px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:black;
 	/* display:inline-block; */
 }
 .hero h3 {
@@ -480,6 +482,7 @@ table {
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .hero p {
 	letter-spacing:1px;
@@ -615,9 +618,13 @@ h1.arrow span {
     color: #FFF;
 }
 /* ==========================================================================Services========================================================================== */
+#service{
+	display: none;
+}
 .services {
 	margin-top:80px;
 	margin-bottom:40px;
+
 }
 .services .icon {
 	position:relative;
@@ -691,6 +698,24 @@ i.respons {
 	position: relative;
 }
 /* ==========================================================================Portfolio========================================================================== */
+#skillset{
+	display: none;
+}
+#portfolio{
+	display: none;
+}
+#portfolioItems{
+	display: none;
+}
+#hire{
+	display: none;
+}
+#client{
+	display: none;
+}
+#newsletter{
+	display: none;
+}
 .swag {
 	padding:75px 0;
 }
@@ -973,6 +998,7 @@ ul.social-buttons li:last-child {
 	position:relative;
 }
 #googlemaps {
+	backgorund-color: pink;
 	width:100%;
 	height:300px;
 	left:15px;
